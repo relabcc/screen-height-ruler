@@ -1,5 +1,5 @@
 {
-  "name": "screen-ruler",
+  "name": "screen-height-ruler",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
