@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+import { useState } from 'react';
+import Measure from 'react-measure';
+import range from 'lodash/range'
 import './App.css';
 
 function App() {
+  const [size, setSize] = useState()
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Measure onResize={({ bounds }) => setSize(bounds)} bounds>
+      {({ measureRef }) => (
+        <div ref={measureRef} style={{ height: '100%', overflow: 'hidden' }}>
+          {size && size.height && (
+            <>
+              {range(0, Math.floor(size.height), 50).map(d => (
+                <div key={d} style={{ height: 50 }} className={`tick ${d % 100 === 0 && 'major'}`}>
+                  {d}px
+                </div>
+              ))}
+              <div className="size">{Math.floor(size.width)}px x {Math.floor(size.height)}px</div>
+            </>
+          )}
+        </div>
+      )}
+    </Measure>
   );
 }
 
