@@ -13,7 +13,7 @@ function App() {
             <>
               {range(0, Math.floor(size.height), 50).map(d => (
                 <div key={d} style={{ height: 50 }} className={`tick ${d % 100 === 0 && 'major'}`}>
-                  {d}px
+                  {d > 0 && <div className="label">{d}px</div>}
                 </div>
               ))}
               <div className="size">{Math.floor(size.width)}px x {Math.floor(size.height)}px</div>

@@ -7,6 +7,13 @@
   position: relative;
 }
 
+.tick .label {
+  position: absolute;
+  top: -1em;
+  background: beige;
+  padding: 0.25em 0.5em;
+}
+
 .tick::before {
   content: "";
   position: absolute;
@@ -20,6 +27,10 @@
 .tick.major::before {
   border-bottom: 2px solid black;
 }
+
+/* .tick:first-of-type::before {
+  border-bottom: none;
+} */
 
 .size {
   position: fixed;
