@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/screen-height-ruler/static/css/main.39d50cb8.chunk.css",
-    "main.js": "/screen-height-ruler/static/js/main.7616e8ce.chunk.js",
-    "main.js.map": "/screen-height-ruler/static/js/main.7616e8ce.chunk.js.map",
-    "runtime-main.js": "/screen-height-ruler/static/js/runtime-main.818d9530.js",
-    "runtime-main.js.map": "/screen-height-ruler/static/js/runtime-main.818d9530.js.map",
-    "static/js/2.2c772e19.chunk.js": "/screen-height-ruler/static/js/2.2c772e19.chunk.js",
-    "static/js/2.2c772e19.chunk.js.map": "/screen-height-ruler/static/js/2.2c772e19.chunk.js.map",
-    "static/js/3.0b93ff61.chunk.js": "/screen-height-ruler/static/js/3.0b93ff61.chunk.js",
-    "static/js/3.0b93ff61.chunk.js.map": "/screen-height-ruler/static/js/3.0b93ff61.chunk.js.map",
+    "main.css": "/screen-height-ruler/static/css/main.1aec2c73.chunk.css",
+    "main.js": "/screen-height-ruler/static/js/main.34978141.chunk.js",
+    "main.js.map": "/screen-height-ruler/static/js/main.34978141.chunk.js.map",
+    "runtime-main.js": "/screen-height-ruler/static/js/runtime-main.2465cd62.js",
+    "runtime-main.js.map": "/screen-height-ruler/static/js/runtime-main.2465cd62.js.map",
+    "static/js/2.7cea277b.chunk.js": "/screen-height-ruler/static/js/2.7cea277b.chunk.js",
+    "static/js/2.7cea277b.chunk.js.map": "/screen-height-ruler/static/js/2.7cea277b.chunk.js.map",
+    "static/js/3.7775a4f4.chunk.js": "/screen-height-ruler/static/js/3.7775a4f4.chunk.js",
+    "static/js/3.7775a4f4.chunk.js.map": "/screen-height-ruler/static/js/3.7775a4f4.chunk.js.map",
     "index.html": "/screen-height-ruler/index.html",
-    "static/css/main.39d50cb8.chunk.css.map": "/screen-height-ruler/static/css/main.39d50cb8.chunk.css.map",
-    "static/js/2.2c772e19.chunk.js.LICENSE.txt": "/screen-height-ruler/static/js/2.2c772e19.chunk.js.LICENSE.txt"
+    "static/css/main.1aec2c73.chunk.css.map": "/screen-height-ruler/static/css/main.1aec2c73.chunk.css.map",
+    "static/js/2.7cea277b.chunk.js.LICENSE.txt": "/screen-height-ruler/static/js/2.7cea277b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.818d9530.js",
-    "static/js/2.2c772e19.chunk.js",
-    "static/css/main.39d50cb8.chunk.css",
-    "static/js/main.7616e8ce.chunk.js"
+    "static/js/runtime-main.2465cd62.js",
+    "static/js/2.7cea277b.chunk.js",
+    "static/css/main.1aec2c73.chunk.css",
+    "static/js/main.34978141.chunk.js"
   ]
 }
