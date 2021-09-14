@@ -40,3 +40,9 @@
   padding: 0.25em 0.5em;
   color: white;
 }
+
+.size label {
+  display: block;
+  border-bottom: 1px solid;
+  padding-bottom: 0.25em;
+}

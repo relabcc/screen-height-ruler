@@ -5,10 +5,11 @@ import './App.css';
 
 function App() {
   const [size, setSize] = useState()
+  const [x2, setX2] = useState()
   return (
     <Measure onResize={({ bounds }) => setSize(bounds)} bounds>
       {({ measureRef }) => (
-        <div ref={measureRef} style={{ height: '100%', overflow: 'hidden' }}>
+        <div ref={measureRef} style={{ height: `${x2 ? 2 : 1}00%`, overflow: 'hidden', backgroundColor: 'beige' }}>
           {size && size.height && (
             <>
               {range(0, Math.floor(size.height), 50).map(d => (
@@ -16,7 +17,13 @@ function App() {
                   {d > 0 && <div className="label">{d}px</div>}
                 </div>
               ))}
-              <div className="size">{Math.floor(size.width)}px x {Math.floor(size.height)}px</div>
+              <div className="size">
+                <label>
+                  <input type="checkbox" name="x2" onChange={(e) => setX2(e.target.checked)} checked={x2} />
+                  2x height
+                </label>
+                {Math.floor(size.width)}px x {Math.floor(size.height)}px
+              </div>
             </>
           )}
         </div>
